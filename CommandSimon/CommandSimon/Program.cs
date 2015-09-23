@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace CommandSimon
 {
@@ -10,6 +6,10 @@ namespace CommandSimon
   {
     static void Main(string[] args)
     {
+      var commandFactory = new CommandFactory();
+      var command = commandFactory.CreateCommand(args[0]);
+
+      Console.ReadKey();
     }
   }
 }
