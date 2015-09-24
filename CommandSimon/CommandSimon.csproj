@@ -43,6 +43,7 @@
   <ItemGroup>
     <Compile Include="CommandFactory.cs" />
     <Compile Include="Commands\NullCommand.cs" />
+    <Compile Include="Commands\RunCommand.cs" />
     <Compile Include="ICommand.cs" />
     <Compile Include="Commands\JumpCommand.cs" />
     <Compile Include="Program.cs" />
