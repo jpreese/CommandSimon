@@ -6,7 +6,7 @@ namespace CommandSimon.Commands
   {
     public void Execute()
     {
-      throw new NotImplementedException();
+      Console.WriteLine("walked");
     }
   }
 }
