@@ -1,4 +1,4 @@
-﻿namespace CommandSimon.Commands
+﻿namespace CommandSimon
 {
   public interface ICommand
   {
