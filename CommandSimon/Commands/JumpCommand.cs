@@ -2,11 +2,11 @@
 
 namespace CommandSimon.Commands
 {
-    public class JumpCommand : ICommand
+  public class JumpCommand : ICommand
+  {
+    public void Execute()
     {
-        public void Execute()
-        {
-            Console.WriteLine("jumped");
-        }
+      Console.WriteLine("jumped");
     }
+  }
 }
